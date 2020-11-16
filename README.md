@@ -13,6 +13,7 @@ The significance of our project is two-fold. Firstly, it provides insight about 
 
 The problem statement our project intends to solve entails the question of the extent to which it is possible to observe patterns or relationships in stock price changes. On a micro level, we aim to determine which predictor(s) would serve as the most relevant ones in determining stock price changes as well as the model(s) that can enable investors to best minimize risks involved.
 
+
 # Findings
 
 The LSTM model performed better than the traditional RNN and time series MLR in predicting stocks due to the ability of LSTM to memorize time related information. In contrast, time series MLR does not retain time related information and RNN has a short- term memory problem due to vanishing gradients. However, in predicting prices of stocks 6 times ahead, the RMSE was always higher for all models due to the lack of training data used in training the 6 months model. Since we require companies to have 180 priors data as one point, we have less data points for each company, resulting in more companies being filtered out.
@@ -20,7 +21,8 @@ The LSTM model performed better than the traditional RNN and time series MLR in 
 
 
 # Summary
-This repository contains the source code used for model training and testing. It focuses on the <b>RNN model</b>, a commonly used machine learning model that uses stored internal state to process input layers.
+This repository contains the source code used for model training and testing for time series MLR, RNN, and LST models.
+<b> please note that training RNN models might take considerable amount of time<\b>
 
 # Libraries
 * matplotlib, numpy, pandas, sklearn, keras, tensorflow, yfinance
