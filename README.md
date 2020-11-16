@@ -45,7 +45,7 @@ This repository contains the source code used for model training and testing for
 * Teo Jun Xiong (teo-jun-xiong) LSTM
 * NUS CS244 AY20202/2021 Semester 1  Teaching Members
 
-This Project was done to fulfil NUS CS3244 requirement.
+This Project was done to fulfil NUS CS3244 requirement\n
 <b> Each models repository available at: </b>
 * RNN:https://github.com/ongjinglong/3244-2010-0005-RNN
 * LSTM:https://github.com/teo-jun-xiong/lstm-stock-prediction
