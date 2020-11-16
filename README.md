@@ -46,11 +46,17 @@ This repository contains the source code used for model training and testing for
 * NUS CS244 AY20202/2021 Semester 1  Teaching Members
 
 This Project was done to fulfil NUS CS3244 requirement.
+<b> Each models repository available at: </b>
+* RNN:https://github.com/ongjinglong/3244-2010-0005-RNN
+* LSTM:https://github.com/teo-jun-xiong/lstm-stock-prediction
+* TS-MLR:https://github.com/whneo97/cs3244-2010-0005-mlr-stocks-prediction
+
 
 # Future Research 
 * Perform better cross validation on RNN model. The RNN model only used Cross Validation to decide on hyperparameters while the layers are set to 5.
 * Perrform better cross validation on LSTM model.
 * varies the input size, the input used was 30 x 132 features for 1 month prediction and 180 x 132 features for 6 month prediction
+* use best subset selection method to cross validate the time series MLR
 
 
 
