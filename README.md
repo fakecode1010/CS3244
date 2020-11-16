@@ -18,9 +18,29 @@ The problem statement our project intends to solve entails the question of the e
 The LSTM model performed better than the traditional RNN and time series MLR in predicting stocks due to the ability of LSTM to memorize time related information. In contrast, time series MLR does not retain time related information and RNN has a short- term memory problem due to vanishing gradients. However, in predicting prices of stocks 6 times ahead, the RMSE was always higher for all models due to the lack of training data used in training the 6 months model. Since we require companies to have 180 priors data as one point, we have less data points for each company, resulting in more companies being filtered out.
 
 
+
 # Summary
 This repository contains the source code used for model training and testing. It focuses on the <b>RNN model</b>, a commonly used machine learning model that uses stored internal state to process input layers.
 
 # Libraries
-* matplotlib, numpy, pandas, sklearn, keras, tensorflow
+* matplotlib, numpy, pandas, sklearn, keras, tensorflow, yfinance
+
+# Credits
+Darren Ong
+Lim Jun Kuang
+Lionel
+Neo Wei Hong
+Nicholas Alexander
+Ong Jing Long
+Teo Jun Xiong
+and NUS CS244 2020 Teaching Members
+
+This Project was done to fulfil NUS CS3244 requirement.
+
+# Future Research 
+* Perform better cross validation on RNN model. The RNN model only used Cross Validation to decide on hyperparameters while the layers are set to 5.
+* Perrform better cross validation on LSTM model.
+* varies the input size, the input used was 30 x 132 features for 1 month prediction and 180 x 132 features for 6 month prediction
+
+
 
