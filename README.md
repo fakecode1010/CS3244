@@ -21,7 +21,7 @@ The LSTM model performed better than the traditional RNN and time series MLR in 
 
 
 # Summary
-This repository contains the source code used for model training and testing for time series MLR, RNN, and LST models.
+This repository contains the source code used for model training and testing for time series MLR, RNN, and LSTM models.
 <b> please note that training RNN models might take considerable amount of time</b>
 
 # Libraries
