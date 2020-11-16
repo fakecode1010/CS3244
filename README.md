@@ -26,14 +26,13 @@ This repository contains the source code used for model training and testing. It
 * matplotlib, numpy, pandas, sklearn, keras, tensorflow, yfinance
 
 # Credits
-Darren Ong
-Lim Jun Kuang
-Lionel
-Neo Wei Hong
-Nicholas Alexander
-Ong Jing Long
-Teo Jun Xiong
-and NUS CS244 2020 Teaching Members
+* Darren Ong TS-MLR
+* Lim Jun Kuangm Lionel LSTM
+* Neo Wei Hong (whneo97) TS-MLR 
+* Nicholas Alexander (fakecode1010) RNN
+* Ong Jing Long (ongjinglong) RNN
+* Teo Jun Xiong (teo-jun-xiong) LSTM
+* NUS CS244 AY20202/2021 Semester 1  Teaching Members
 
 This Project was done to fulfil NUS CS3244 requirement.
 
