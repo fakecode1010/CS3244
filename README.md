@@ -1,4 +1,4 @@
-# Project Premise
+# Abstract
 The project explores the extent to which future stock prices can be predicted using supervised machine learning models with fundamental and technical analysis data as inputs. 
 
 The project aims to determine which supervised machine learning model, from Time Series Multi-Linear Regression (TS-MLR), Recurrent Neural Networks (RNN), to Long Short-Term Memory (LSTM), can predict future stock prices with the lowest Root Mean Square Error (RMSE). In doing so, we conducted dimensionality reduction as well as feature selection, providing an insight into the categories of fundamental and technical analysis data that are particularly significant in predicting future stock prices. This insight may be integrated into stock-picking strategies and provide a benchmark on the ideal timing to buy or sell stocks.
