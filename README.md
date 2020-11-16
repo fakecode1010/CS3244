@@ -25,7 +25,16 @@ This repository contains the source code used for model training and testing for
 <b> please note that training RNN models might take considerable amount of time<\b>
 
 # Libraries
-* matplotlib, numpy, pandas, sklearn, keras, tensorflow, yfinance
+* matplotlib 
+* numpy 
+* pandas
+* sklearn
+* keras
+* tensorflow /tensorflow -gpu
+* yfinance 
+* statsmodels api
+* time
+* os
 
 # Credits
 * Darren Ong TS-MLR
